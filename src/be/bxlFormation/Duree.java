@@ -41,7 +41,10 @@ public class Duree {
 
     }
 
+
     public void addDuree(Duree aAjouter){
+     if(aAjouter.seconde<0 || aAjouter.minute<0 || aAjouter.heure<0 )
+         System.err.println("duree invalide");
 
     }
 }
